@@ -7,15 +7,27 @@ public class Nested_Loop {
 //            System.out.println();
 //        }
 
+//        int i = 1;
+//        while(i <= 3){
+//            int j = 1;
+//            while(j <= 4){
+//                System.out.println("i " + i + " j " + j);
+//                j++;
+//            }
+//            i++;
+//            System.out.println();
+//        }
+
         int i = 1;
-        while(i <= 3){
+
+        do{
             int j = 1;
-            while(j <= 4){
+            do{
                 System.out.println("i " + i + " j " + j);
                 j++;
-            }
+            }while(j <= 4);
             i++;
             System.out.println();
-        }
+        }while(i <= 3);
     }
 }
